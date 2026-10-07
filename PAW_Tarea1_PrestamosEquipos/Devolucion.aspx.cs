@@ -4,12 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using PAW_Tarea1_PrestamosEquipos.Models;
 using PAW_Tarea1_PrestamosEquipos.Services;
 
 namespace PAW_Tarea1_PrestamosEquipos
 {
-    public partial class _Default : Page
+    public partial class Devolucion : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

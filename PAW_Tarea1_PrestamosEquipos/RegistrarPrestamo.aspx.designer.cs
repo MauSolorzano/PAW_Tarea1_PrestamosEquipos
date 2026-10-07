@@ -11,7 +11,7 @@ namespace PAW_Tarea1_PrestamosEquipos
 {
 
 
-    public partial class _Default
+    public partial class RegistrarPrestamo
     {
     }
 }

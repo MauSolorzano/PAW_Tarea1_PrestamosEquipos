@@ -2,43 +2,56 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <main>
-        <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="aspnetTitle">ASP.NET</h1>
-            <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-            <p><a href="http://www.asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
-        </section>
-
-        <div class="row">
-            <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-                <h2 id="gettingStartedTitle">Getting started</h2>
-                <p>
-                    ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-                A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-                </p>
-            </section>
-            <section class="col-md-4" aria-labelledby="librariesTitle">
-                <h2 id="librariesTitle">Get more libraries</h2>
-                <p>
-                    NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-                </p>
-            </section>
-            <section class="col-md-4" aria-labelledby="hostingTitle">
-                <h2 id="hostingTitle">Web Hosting</h2>
-                <p>
-                    You can easily find a web hosting company that offers the right mix of features and price for your applications.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-                </p>
-            </section>
+    <main class="py-4">
+        <div class="mb-4">
+            <h1>Préstamo de equipos de oficina</h1>
+            <p class="lead">Selecciona una opción para continuar.</p>
         </div>
+
+        <section id="menuPrincipal" class="row g-4" aria-label="Menú principal">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h2 class="card-title h4">Registrar préstamo</h2>
+                        <p class="card-text">
+                            Registra quién solicita un equipo y cuándo lo devolverá.
+                   
+                        </p>
+                        <a href="RegistrarPrestamo.aspx" class="btn btn-primary mt-auto">Registrar
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h2 class="card-title h4">Consultar préstamos</h2>
+                        <p class="card-text">
+                            Consulta los préstamos registrados y las unidades disponibles.
+                   
+                        </p>
+                        <a href="ConsultarPrestamos.aspx" class="btn btn-primary mt-auto">Consultar
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h2 class="card-title h4">Procesar devolución</h2>
+                        <p class="card-text">
+                            Marca como devuelto un equipo que actualmente está prestado.
+                   
+                        </p>
+                        <a href="Devolucion.aspx" class="btn btn-primary mt-auto">Procesar devolución
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
 </asp:Content>
+
