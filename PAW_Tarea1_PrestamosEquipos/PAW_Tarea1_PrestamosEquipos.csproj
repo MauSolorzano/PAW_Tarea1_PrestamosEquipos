@@ -230,6 +230,7 @@
     </Compile>
     <Compile Include="Models\Equipo.cs" />
     <Compile Include="Models\Prestamo.cs" />
+    <Compile Include="Models\ResultadoOperacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistrarPrestamo.aspx.cs">
       <DependentUpon>RegistrarPrestamo.aspx</DependentUpon>

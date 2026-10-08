@@ -13,8 +13,8 @@ namespace PAW_Tarea1_PrestamosEquipos.Models
         public string NombreSolicitante { get; set; }
         public string Area { get; set; }
         public string Motivo { get; set; }
-        public DateTime FechasPrestamo { get; set; }
-        public DateTime FechaPrevistaDevolución { get; set; }
+        public DateTime FechaPrestamo { get; set; }
+        public DateTime FechaPrevistaDevolucion { get; set; }
         public string Estado { get; set; }
 
     }
