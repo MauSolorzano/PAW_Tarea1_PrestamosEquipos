@@ -34,7 +34,7 @@
                         <th>Área</th>
                         <th>Motivo</th>
                         <th>Fecha del préstamo</th>
-                        <th>Devolución prevista</th>
+                        <th>Fecha de devolución o prevista</th>
                         <th>Estado</th>
                     </tr>
                 </thead>
@@ -71,7 +71,7 @@
             $mensaje
                 .removeClass("alert-success")
                 .addClass("alert-danger")
-                .text(texto
+                .text(texto)
                 .show();
             }
 

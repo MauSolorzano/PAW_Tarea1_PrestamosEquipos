@@ -19,6 +19,8 @@ namespace PAW_Tarea1_PrestamosEquipos
         [WebMethod(EnableSession = true)]
         public static ResumenConsulta ObtenerResumen()
         {
+            SesionPrestamos.Inicializar();
+
             // Obtener los equipos y préstamos desde la sesión
             List<Equipo> equipos = SesionPrestamos.ObtenerEquipos();
             List<Prestamo> prestamos = SesionPrestamos.ObtenerPrestamos();
